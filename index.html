@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/@media.css"  media="screen and (max-width: 768px)"  >
+    <title>Prova</title>
+</head>
+<body>
+   
+    <header>
+        <div id="pagina" >
+        <h1>Rhuan Imports</h1>
+        <nav id="menuPc">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+       </nav>
+       <div id="menuIcon" onclick="abrirMenu()">
+        <img  class="imagem" src="images/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+    </div>
+    </header>
+    <nav id="menuMobile">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+   </nav>
+    <div class="login-page">
+        <h1>Faça o Login na loja</h1>
+        <form>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+            <a href="EsqueciSenha.html">Esqueci minha senha</a>
+            <a href="cadastro.html">Cadastrar</a>
+        </form>
+    </div>
+
+    
+    <div class="signup-page">
+        <h1>Cadastro</h1>
+        <form>
+            <label for="new-username">Novo Usuário:</label>
+            <input type="text" id="new-username" name="new-username" required>
+
+            <label for="new-password">Nova Senha:</label>
+            <input type="password" id="new-password" name="new-password" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    
+    <div class="forgot-password-page">
+        <h1>Esqueci Minha Senha</h1>
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Recuperar Senha</button>
+        </form>
+    </div>
+    <footer>Direitos da Pagina de @RhuanCheroso</footer>
+    <script>
+        function abrirMenu(){
+            if(menuMobile.style.display == "none"){
+                menuMobile.style.display = "flex";
+            }else{
+                menuMobile.style.display = "none"; 
+            }
+        }
+    </script>
+</body>
+</html>

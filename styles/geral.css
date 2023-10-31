@@ -1,0 +1,111 @@
+
+*{    
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+}
+
+#pagina {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #7E2CAD; 
+    align-items: center;   
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menuIcon{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: none;    
+    gap: 5px;
+}
+
+
+#menuMobile{
+    display: none;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    margin-top:  80px;
+    background-color: #7E2CAD; 
+}
+
+
+#pagina{
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.login-page{
+    color: #7E2CAD;
+}
+
+
+
+.login-page, .signup-page, .forgot-password-page{
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #050505;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.login-page{
+    display: block;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #7E2CAD;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7E2CAD;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
