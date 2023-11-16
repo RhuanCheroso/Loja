@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/geral.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color:#7E2CAD;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rhuan Imports</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastrar-se</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produtos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+                    <li><a class="dropdown-item" href="#">Masculino</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Feminino</a></li>
+                    <li><a class="dropdown-item" href="#">Infantil</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Trabalhe Conosco</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Procurar</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <h1>Promoções</h1>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/tw2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Nike Air Max TW 2023</h5>
+                <p>Veja os valores e cores disponiveis!.</p>
+            </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/vapor2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Nike Air VaporMax 2023</h5>
+                <p>Veja os valores e cores disponiveis!.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./images/95Air.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Nike Air Max 95</h5>
+                <p>Veja os valores e cores disponiveis!.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proximo</span>
+        </button>
+        </div>
+        <section id="introSection" style="color: var(--azul);" class="container-fluid mx-0 my-2 p-0 text-center">
+            <h3 class="my-3">Temos camisas de time também</h3>
+            <div class="container mx-auto my-3 row">
+                <div class="col-3 m-0 p-0">
+                    <img class="w-100" src="images/vasco2.jpeg" alt="">
+                </div>
+                <div class="col-3 m-0 p-0">
+                    <img class="w-100" src="images/sevilla.webp" alt="">
+                </div>
+                <div class="col-3 m-0 p-0">
+                    <img class="w-100" src="images/celtic.jpg" alt="">
+                </div>
+                <div class="col-3 m-0 p-0">
+                    <img class="w-100" src="images/monaco.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="container">
+                <p>Temos as melhores camisa de times, importadas ou nacionais de belissima qualidade para você, veja abaixo. Nossas camisas disponiveis de diversos tamanhos.</p>
+            </div>
+        </section>
+<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Clique aqui
+    </button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Este link te levara para outra pagina</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            (aqui ficaria o link kkk)
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Avançar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <section id="catalogoSection" class="container-fluid text-center mx-0 my-2 p-0">
+        <h3 class="my-3" style="color: var(--laranja);">CATÁLOGO DE PRODUTOS</h3>
+        <div id="produtosGrupo" class="d-flex justify-content-center gap-2 flex-wrap container-fluid my-2 p-0">
+            <!-- COLEIRA -->
+            <div class="card" style="width: 23rem;">
+                <img src="images/acessorios.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title" style="color: var(--laranja);">Acessorios</h3>
+                    <p class="card-text">Aqui você encontrará todos os tipos de acessorios que voce quiser.</p>
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" >
+                    VER MAIS
+                    </button>                          
+                </div>
+            </div>
+            <!-- COMIDA -->
+            <div class="card" style="width: 23rem;">
+                <img src="images/perfumes.webp" class="card-img-top" alt="ração para cachorro">
+                <div class="card-body">
+                <h3 class="card-title" style="color: var(--laranja);"> Perfumes </h3>
+                <p class="card-text">Procure seu perfume ideal, temos de todos os estilos e gostos.</p>>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal">
+                    VER MAIS
+                    </button>                          
+                </div>
+            </div>
+            <!-- DISCO -->
+            <div class="card" style="width: 23rem;">
+                <img src="images/tenis.jpeg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title" style="color: var(--laranja);">Tênis</h3>
+                    <p class="card-text">Escontre o que procura conosco, temos todos os tipos de tênis que você imaginar.</p>
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal">
+                    VER MAIS
+                    </button>                          
+                </div>
+            </div>
+            <!-- CASINHA -->
+            <div class="card" style="width: 23rem;">
+                <img src="images/roupas.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title" style="color: var(--laranja);">Roupas</h3>
+                    <p class="card-text">Veja aqui, todo nosso catalogo de roupas, de todos os tipos.</p>
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal">
+                    VER MAIS
+                    </button>                          
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    </section>
+    <footer>Direitos da Pagina de @RhuanCheroso</footer>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</html>
